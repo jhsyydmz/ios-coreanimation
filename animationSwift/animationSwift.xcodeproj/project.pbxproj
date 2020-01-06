@@ -16,6 +16,8 @@
 		2D28B2A823C2FF8400112540 /* animationSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2A723C2FF8400112540 /* animationSwiftTests.swift */; };
 		2D28B2B323C2FF8400112540 /* animationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2B223C2FF8400112540 /* animationSwiftUITests.swift */; };
 		2D28B2C123C36F8B00112540 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2C023C36F8B00112540 /* SecondViewController.swift */; };
+		2D28B2C323C3818B00112540 /* turntable.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B2C223C3818B00112540 /* turntable.png */; };
+		2D28B2C523C382B600112540 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2C423C382B600112540 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		2D28B2B223C2FF8400112540 /* animationSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationSwiftUITests.swift; sourceTree = "<group>"; };
 		2D28B2B423C2FF8400112540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D28B2C023C36F8B00112540 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2D28B2C223C3818B00112540 /* turntable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turntable.png; sourceTree = "<group>"; };
+		2D28B2C423C382B600112540 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,12 @@
 		2D28B28F23C2FF8300112540 /* animationSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2D28B2C223C3818B00112540 /* turntable.png */,
 				2D28B29023C2FF8300112540 /* AppDelegate.swift */,
 				2D28B29223C2FF8300112540 /* SceneDelegate.swift */,
 				2D28B29423C2FF8300112540 /* ViewController.swift */,
 				2D28B2C023C36F8B00112540 /* SecondViewController.swift */,
+				2D28B2C423C382B600112540 /* ThirdViewController.swift */,
 				2D28B29623C2FF8300112540 /* Main.storyboard */,
 				2D28B29923C2FF8400112540 /* Assets.xcassets */,
 				2D28B29B23C2FF8400112540 /* LaunchScreen.storyboard */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D28B29D23C2FF8400112540 /* LaunchScreen.storyboard in Resources */,
+				2D28B2C323C3818B00112540 /* turntable.png in Resources */,
 				2D28B29A23C2FF8400112540 /* Assets.xcassets in Resources */,
 				2D28B29823C2FF8300112540 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +271,7 @@
 			files = (
 				2D28B2C123C36F8B00112540 /* SecondViewController.swift in Sources */,
 				2D28B29523C2FF8300112540 /* ViewController.swift in Sources */,
+				2D28B2C523C382B600112540 /* ThirdViewController.swift in Sources */,
 				2D28B29123C2FF8300112540 /* AppDelegate.swift in Sources */,
 				2D28B29323C2FF8300112540 /* SceneDelegate.swift in Sources */,
 			);
