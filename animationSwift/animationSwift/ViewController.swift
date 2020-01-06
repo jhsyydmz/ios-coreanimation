@@ -55,10 +55,24 @@ class ViewController: UIViewController {
 //        UIView.commitAnimations()
         
         //缩放
+//        UIView.beginAnimations(nil, context: nil)
+//        UIView.setAnimationDuration(1)
+//        loginButton!.frame = CGRect(x: 20, y: 230, width: loginButton!.frame.size.width, height: loginButton!.frame.size.height)
+//        loginButton!.transform = CGAffineTransform(scaleX: 0.7, y: 1.2)
+//        UIView.commitAnimations()
+        
+        //旋转
+//        UIView.beginAnimations(nil, context: nil)
+//        UIView.setAnimationDuration(1)
+//        loginButton!.frame = CGRect(x: 20, y: 230, width: loginButton!.frame.size.width, height: loginButton!.frame.size.height)
+//        let angle:CGFloat = CGFloat(M_PI_4)
+//        loginButton!.transform = CGAffineTransform(rotationAngle: angle)
+//        UIView.commitAnimations()
+        
+        //移动
         UIView.beginAnimations(nil, context: nil)
         UIView.setAnimationDuration(1)
-        loginButton!.frame = CGRect(x: 20, y: 230, width: loginButton!.frame.size.width, height: loginButton!.frame.size.height)
-        loginButton!.transform = CGAffineTransform(scaleX: 0.7, y: 1.2)
+        loginButton!.transform = CGAffineTransform(translationX: 0, y: 300)
         UIView.commitAnimations()
     }
     
@@ -70,7 +84,10 @@ class ViewController: UIViewController {
         
         
         
-        loginButton = UIButton(frame: CGRect(x: -394, y: 230, width: self.view.frame.width-20*2, height: 50))
+//        loginButton = UIButton(frame: CGRect(x: -394, y: 230, width: self.view.frame.width-20*2, height: 50))
+        //用于移动的时候
+        loginButton = UIButton(frame: CGRect(x: 20, y: 230, width: self.view.frame.width-20*2, height: 50))
+
         loginButton?.backgroundColor=UIColor(red: 50/255.0, green: 185/255.0, blue: 170/255.0, alpha: 1.0)
         loginButton?.setTitle("登录", for:.normal)
         self.view.addSubview(loginButton!)
