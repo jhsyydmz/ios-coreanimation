@@ -29,13 +29,21 @@ class SecondViewController: UIViewController {
         
         UIView.beginAnimations(nil, context: nil)
         UIView.setAnimationDuration(2)
+//        UIView.setAnimationRepeatCount(3)
+        UIView.setAnimationRepeatAutoreverses(true)
+        UIView.setAnimationDelegate(self)
         let angle = CGFloat(M_PI)
         loginButton.transform = CGAffineTransform(rotationAngle: angle)
         loginButton.frame = CGRect(x: 400, y: 0, width: loginButton.frame.width*0.1, height: loginButton.frame.height*0.1)
+        loginButton.alpha = 0;
+        UIView.setAnimationDidStop(#selector(viewanimationisEnd))
         UIView.commitAnimations()
         
     }
-
+    
+    @objc func viewanimationisEnd(){
+        print("AnimationEnd!")
+    }
     /*
     // MARK: - Navigation
 
