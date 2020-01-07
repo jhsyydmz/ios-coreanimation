@@ -14,6 +14,10 @@ class ForthPartOneViewController: UIViewController {
     var cindex = 0
     var timerc = Timer.init()
     
+    //方法2
+    var displaylink : CADisplayLink?
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +26,14 @@ class ForthPartOneViewController: UIViewController {
         self.view.addSubview(imageview)
         imageview.contentMode = .scaleAspectFit
         imageview.image = UIImage(named: "/Users/cyl/Documents/GitHub/ios-coreanimation/animationSwift/animationSwift/第4章/\(cindex).png")
-        timerc = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(refushImage), userInfo: nil, repeats: true)
+        //方法1
+//        timerc = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(refushImage), userInfo: nil, repeats: true)
+        
+        //方法2
+        displaylink = CADisplayLink.init(target: self, selector: #selector(refushImage))
+        displaylink?.frameInterval = 3
+        displaylink?.add(to: RunLoop.current, forMode: .default)
+        
     }
     
     @objc func refushImage() -> Void {
