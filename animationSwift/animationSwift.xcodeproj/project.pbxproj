@@ -21,6 +21,7 @@
 		2D28B2CA23C39A5000112540 /* thirdPartOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2C923C39A5000112540 /* thirdPartOneViewController.swift */; };
 		2D28B2CD23C39D0300112540 /* Airport.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B2CB23C39D0300112540 /* Airport.png */; };
 		2D28B2CE23C39D0300112540 /* Plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B2CC23C39D0300112540 /* Plane.png */; };
+		2D28B2D023C4130700112540 /* ThirdPartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B2CF23C4130700112540 /* ThirdPartTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2D28B2C923C39A5000112540 /* thirdPartOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdPartOneViewController.swift; sourceTree = "<group>"; };
 		2D28B2CB23C39D0300112540 /* Airport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airport.png; sourceTree = "<group>"; };
 		2D28B2CC23C39D0300112540 /* Plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane.png; sourceTree = "<group>"; };
+		2D28B2CF23C4130700112540 /* ThirdPartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				2D28B2CB23C39D0300112540 /* Airport.png */,
 				2D28B2CC23C39D0300112540 /* Plane.png */,
 				2D28B2C923C39A5000112540 /* thirdPartOneViewController.swift */,
+				2D28B2CF23C4130700112540 /* ThirdPartTwoViewController.swift */,
 			);
 			path = "第三章";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			files = (
 				2D28B2CA23C39A5000112540 /* thirdPartOneViewController.swift in Sources */,
 				2D28B2C123C36F8B00112540 /* SecondViewController.swift in Sources */,
+				2D28B2D023C4130700112540 /* ThirdPartTwoViewController.swift in Sources */,
 				2D28B29523C2FF8300112540 /* ViewController.swift in Sources */,
 				2D28B2C523C382B600112540 /* ThirdViewController.swift in Sources */,
 				2D28B29123C2FF8300112540 /* AppDelegate.swift in Sources */,
