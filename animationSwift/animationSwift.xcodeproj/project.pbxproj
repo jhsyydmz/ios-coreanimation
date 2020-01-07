@@ -89,6 +89,8 @@
 		2D28B35B23C472D100112540 /* 35.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B31923C472D100112540 /* 35.png */; };
 		2D28B35C23C472D100112540 /* 45.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B31A23C472D100112540 /* 45.png */; };
 		2D28B35D23C472D100112540 /* 36.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D28B31B23C472D100112540 /* 36.png */; };
+		2DFE76E423C4DAD900A5F115 /* ForthPartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE76E323C4DAD900A5F115 /* ForthPartTwoViewController.swift */; };
+		2DFE76E623C4DBE100A5F115 /* BlackHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE76E523C4DBE100A5F115 /* BlackHoleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -198,6 +200,8 @@
 		2D28B31923C472D100112540 /* 35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35.png; sourceTree = "<group>"; };
 		2D28B31A23C472D100112540 /* 45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45.png; sourceTree = "<group>"; };
 		2D28B31B23C472D100112540 /* 36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36.png; sourceTree = "<group>"; };
+		2DFE76E323C4DAD900A5F115 /* ForthPartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthPartTwoViewController.swift; sourceTree = "<group>"; };
+		2DFE76E523C4DBE100A5F115 /* BlackHoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHoleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +368,8 @@
 				2D28B2F423C472CF00112540 /* 65.png */,
 				2D28B30023C472D000112540 /* 66.png */,
 				2D28B2D223C46BCC00112540 /* ForthPartOneViewController.swift */,
+				2DFE76E323C4DAD900A5F115 /* ForthPartTwoViewController.swift */,
+				2DFE76E523C4DBE100A5F115 /* BlackHoleView.swift */,
 			);
 			path = "第4章";
 			sourceTree = "<group>";
@@ -570,10 +576,12 @@
 			files = (
 				2D28B2CA23C39A5000112540 /* thirdPartOneViewController.swift in Sources */,
 				2D28B2C123C36F8B00112540 /* SecondViewController.swift in Sources */,
+				2DFE76E623C4DBE100A5F115 /* BlackHoleView.swift in Sources */,
 				2D28B2D023C4130700112540 /* ThirdPartTwoViewController.swift in Sources */,
 				2D28B29523C2FF8300112540 /* ViewController.swift in Sources */,
 				2D28B2D323C46BCC00112540 /* ForthPartOneViewController.swift in Sources */,
 				2D28B2C523C382B600112540 /* ThirdViewController.swift in Sources */,
+				2DFE76E423C4DAD900A5F115 /* ForthPartTwoViewController.swift in Sources */,
 				2D28B29123C2FF8300112540 /* AppDelegate.swift in Sources */,
 				2D28B29323C2FF8300112540 /* SceneDelegate.swift in Sources */,
 			);
