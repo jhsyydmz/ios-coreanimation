@@ -41,37 +41,54 @@ class FifthOne: UIViewController {
         
         
         //这是将图片变为GIF
-        let images = NSMutableArray.init()
+//        let images = NSMutableArray.init()
+//        for i in 0...66 {
+//            let imagePath = "/Users/cyl/Documents/GitHub/ios-coreanimation/animationSwift/animationSwift/第4章/\(i).png"
+//            let image = UIImage(named: imagePath)!
+//            images.add(image)
+//
+//        }
+//
+//        var docs = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+//        let documentsDirectory = docs[0]
+//        let gifPath = "/Users/cyl/Documents/GitHub/ios-coreanimation/animationSwift/animationSwift/第4章"+"/myPlane.gif"
+//        print(gifPath)
+//        let url = CFURLCreateWithFileSystemPath(kCFAllocatorDefault, gifPath as CFString, .cfurlposixPathStyle, false)
+//        let destion = CGImageDestinationCreateWithURL(url!, kUTTypeGIF, images.count, nil)
+//
+//
+//        let cgimagePropertiesDic = [kCGImagePropertyGIFDelayTime as String:0.05]
+//
+//        let cgimagePropertitesDestDic = [kCGImagePropertyGIFDictionary as String:cgimagePropertiesDic]
+//        for cgimage in images {
+//            CGImageDestinationAddImage(destion!,(cgimage as AnyObject).cgImage!!, cgimagePropertitesDestDic as CFDictionary?)
+//        }
+//            let gifPropertiesDic = NSMutableDictionary.init()
+//            gifPropertiesDic.setValue(kCGImagePropertyColorModelRGB, forKey: kCGImagePropertyColorModel as String)
+//            gifPropertiesDic.setValue(16, forKey: kCGImagePropertyDepth as String)
+//            gifPropertiesDic.setValue(1, forKey: kCGImagePropertyGIFLoopCount as String)
+//
+//            let gifDictionaryDestDic = [kCGImagePropertyGIFDictionary as String:gifPropertiesDic]
+//            CGImageDestinationSetProperties(destion!, gifDictionaryDestDic as CFDictionary?)
+//            CGImageDestinationFinalize(destion!)
+            
+        
+        //这是GIF图像显示
+        var images:[UIImage] = []
+        
         for i in 0...66 {
             let imagePath = "/Users/cyl/Documents/GitHub/ios-coreanimation/animationSwift/animationSwift/第4章/\(i).png"
             let image = UIImage(named: imagePath)!
-            images.add(image)
-            
+            images.append(image)
         }
         
-        var docs = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
-        let documentsDirectory = docs[0]
-        let gifPath = "/Users/cyl/Documents/GitHub/ios-coreanimation/animationSwift/animationSwift/第4章"+"/myPlane.gif"
-        print(gifPath)
-        let url = CFURLCreateWithFileSystemPath(kCFAllocatorDefault, gifPath as CFString, .cfurlposixPathStyle, false)
-        let destion = CGImageDestinationCreateWithURL(url!, kUTTypeGIF, images.count, nil)
-        
-        
-        let cgimagePropertiesDic = [kCGImagePropertyGIFDelayTime as String:0.05]
-        
-        let cgimagePropertitesDestDic = [kCGImagePropertyGIFDictionary as String:cgimagePropertiesDic]
-        for cgimage in images {
-            CGImageDestinationAddImage(destion!,(cgimage as AnyObject).cgImage!!, cgimagePropertitesDestDic as CFDictionary?)
-        }
-            let gifPropertiesDic = NSMutableDictionary.init()
-            gifPropertiesDic.setValue(kCGImagePropertyColorModelRGB, forKey: kCGImagePropertyColorModel as String)
-            gifPropertiesDic.setValue(16, forKey: kCGImagePropertyDepth as String)
-            gifPropertiesDic.setValue(1, forKey: kCGImagePropertyGIFLoopCount as String)
-            
-            let gifDictionaryDestDic = [kCGImagePropertyGIFDictionary as String:gifPropertiesDic]
-            CGImageDestinationSetProperties(destion!, gifDictionaryDestDic as CFDictionary?)
-            CGImageDestinationFinalize(destion!)
-            
+        let imageView = UIImageView.init(frame: self.view.bounds)
+        imageView.contentMode = .center
+        self.view.addSubview(imageView)
+        imageView.animationImages = images
+        imageView.animationDuration = 5
+        imageView.animationRepeatCount = 2
+        imageView.startAnimating()
         
         
         
