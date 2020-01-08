@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1BA49B23C59CC400798CEC /* sixthPartOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1BA49A23C59CC400798CEC /* sixthPartOne.swift */; };
 		2D28B29123C2FF8300112540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B29023C2FF8300112540 /* AppDelegate.swift */; };
 		2D28B29323C2FF8300112540 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B29223C2FF8300112540 /* SceneDelegate.swift */; };
 		2D28B29523C2FF8300112540 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28B29423C2FF8300112540 /* ViewController.swift */; };
@@ -113,6 +114,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D1BA49A23C59CC400798CEC /* sixthPartOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthPartOne.swift; sourceTree = "<group>"; };
 		2D28B28D23C2FF8300112540 /* animationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D28B29023C2FF8300112540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D28B29223C2FF8300112540 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -233,6 +235,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1BA49923C59B0C00798CEC /* 第6章 */ = {
+			isa = PBXGroup;
+			children = (
+				2D1BA49A23C59CC400798CEC /* sixthPartOne.swift */,
+			);
+			path = "第6章";
+			sourceTree = "<group>";
+		};
 		2D28B28423C2FF8300112540 = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 		2D28B28F23C2FF8300112540 /* animationSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2D1BA49923C59B0C00798CEC /* 第6章 */,
 				2DFE76E723C5619C00A5F115 /* 第5章 */,
 				2D28B2D123C46A9D00112540 /* 第4章 */,
 				2D28B2C823C39A2300112540 /* 第三章 */,
@@ -591,6 +602,7 @@
 			files = (
 				2D28B2CA23C39A5000112540 /* thirdPartOneViewController.swift in Sources */,
 				2D28B2C123C36F8B00112540 /* SecondViewController.swift in Sources */,
+				2D1BA49B23C59CC400798CEC /* sixthPartOne.swift in Sources */,
 				2DFE76E623C4DBE100A5F115 /* BlackHoleView.swift in Sources */,
 				2D28B2D023C4130700112540 /* ThirdPartTwoViewController.swift in Sources */,
 				2D28B29523C2FF8300112540 /* ViewController.swift in Sources */,
