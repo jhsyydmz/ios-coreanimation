@@ -55,16 +55,76 @@ class sixthPartOne: UIViewController {
 //        loginButton.layer.add(animation, forKey: nil)
         
         //位移
+//        let animation = CABasicAnimation()
+//        animation.keyPath = "transform.translation.y"
+//        animation.toValue = 100
+//        animation.duration = 2.0
+//        animation.fillMode = .forwards
+//        animation.isRemovedOnCompletion = false
+//        loginButton.layer.add(animation, forKey: nil)
+        
+        //圆角
+//        let animation = CABasicAnimation()
+//        animation.keyPath = "cornerRadius"
+//        animation.toValue = 15
+//        animation.duration = 2.0
+//        animation.fillMode = .forwards
+//        animation.isRemovedOnCompletion = false
+//        loginButton.layer.add(animation, forKey: nil)
+        
+        //边框
+//        loginButton.layer.borderColor = UIColor.gray.cgColor
+//        loginButton.layer.cornerRadius = 10.0
+//        let animation = CABasicAnimation()
+//        animation.keyPath = "borderWidth"
+//        animation.toValue = 10
+//        animation.duration = 2.0
+//        animation.fillMode = .forwards
+//        animation.isRemovedOnCompletion = false
+//        loginButton.layer.add(animation, forKey: nil)
+        
+        //颜色渐变
+//        let animation = CABasicAnimation()
+//        animation.keyPath = "backgroundColor"
+//        animation.fromValue = UIColor.green.cgColor
+//        animation.toValue = UIColor.red.cgColor
+//        animation.duration = 2.0
+//        animation.fillMode = .forwards
+//        animation.isRemovedOnCompletion = false
+//        loginButton.layer.add(animation, forKey: nil)
+        
+        //颜色
+//        loginButton.layer.borderWidth = 5
+//        let animation = CABasicAnimation()
+//         animation.keyPath = "borderColor"
+//         animation.fromValue = UIColor.green.cgColor
+//         animation.toValue = UIColor.cyan.cgColor
+//         animation.duration = 2.0
+//         animation.fillMode = .forwards
+//         animation.isRemovedOnCompletion = false
+//         loginButton.layer.add(animation, forKey: nil)
+        
+        //淡入
+//        let animation = CABasicAnimation()
+//        animation.keyPath = "opacity"
+//        animation.fromValue = UIColor.green.cgColor
+//        animation.toValue = 1.0
+//        animation.duration = 2.0
+//        animation.fillMode = .forwards
+//        animation.isRemovedOnCompletion = false
+//        loginButton.layer.add(animation, forKey: nil)
+        
+        //阴影渐变
+        loginButton.layer.shadowColor = UIColor.gray.cgColor
+        loginButton.layer.shadowOpacity = 0.5
         let animation = CABasicAnimation()
-        animation.keyPath = "transform.translation.y"
-        animation.toValue = 100
-        animation.duration = 2.0
+        animation.keyPath = "shadowOffset"
+        animation.fromValue = UIColor.green.cgColor
+        animation.toValue = NSValue(cgSize: CGSize(width: 10, height: 10))
+        animation.duration = 0
         animation.fillMode = .forwards
         animation.isRemovedOnCompletion = false
         loginButton.layer.add(animation, forKey: nil)
-        
-        
-        
     }
     /*
     // MARK: - Navigation
