@@ -110,6 +110,8 @@
 		2D8FDECE23CD6C5F00313ACF /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D8FDECC23CD6C5F00313ACF /* sun.png */; };
 		2D8FDED023CD6F0200313ACF /* TwelfthPatrOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FDECF23CD6F0200313ACF /* TwelfthPatrOne.swift */; };
 		2D8FDED223CD87A800313ACF /* TwelfthPartTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FDED123CD87A800313ACF /* TwelfthPartTwo.swift */; };
+		2D8FDED523CDA14200313ACF /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8FDED423CDA14200313ACF /* image.jpg */; };
+		2D8FDED723CDA19100313ACF /* ThirteenthPartOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8FDED623CDA19100313ACF /* ThirteenthPartOne.swift */; };
 		2DFE76E423C4DAD900A5F115 /* ForthPartTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE76E323C4DAD900A5F115 /* ForthPartTwoViewController.swift */; };
 		2DFE76E623C4DBE100A5F115 /* BlackHoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE76E523C4DBE100A5F115 /* BlackHoleView.swift */; };
 		2DFE76E923C5620300A5F115 /* FifthOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE76E823C5620300A5F115 /* FifthOne.swift */; };
@@ -244,6 +246,8 @@
 		2D8FDECC23CD6C5F00313ACF /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
 		2D8FDECF23CD6F0200313ACF /* TwelfthPatrOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelfthPatrOne.swift; sourceTree = "<group>"; };
 		2D8FDED123CD87A800313ACF /* TwelfthPartTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelfthPartTwo.swift; sourceTree = "<group>"; };
+		2D8FDED423CDA14200313ACF /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		2D8FDED623CDA19100313ACF /* ThirteenthPartOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirteenthPartOne.swift; sourceTree = "<group>"; };
 		2DFE76E323C4DAD900A5F115 /* ForthPartTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthPartTwoViewController.swift; sourceTree = "<group>"; };
 		2DFE76E523C4DBE100A5F115 /* BlackHoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHoleView.swift; sourceTree = "<group>"; };
 		2DFE76E823C5620300A5F115 /* FifthOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthOne.swift; sourceTree = "<group>"; };
@@ -306,6 +310,7 @@
 		2D28B28F23C2FF8300112540 /* animationSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2D8FDED323CD952900313ACF /* 第13章 */,
 				2D8FDEC823CD6C4100313ACF /* 第12章 */,
 				2D8FDEBF23CC39AC00313ACF /* 第11章 */,
 				2D8FDEB823CB69FF00313ACF /* 第10章 */,
@@ -498,6 +503,15 @@
 			path = "第12章";
 			sourceTree = "<group>";
 		};
+		2D8FDED323CD952900313ACF /* 第13章 */ = {
+			isa = PBXGroup;
+			children = (
+				2D8FDED423CDA14200313ACF /* image.jpg */,
+				2D8FDED623CDA19100313ACF /* ThirteenthPartOne.swift */,
+			);
+			path = "第13章";
+			sourceTree = "<group>";
+		};
 		2DFE76E723C5619C00A5F115 /* 第5章 */ = {
 			isa = PBXGroup;
 			children = (
@@ -670,6 +684,7 @@
 				2DFE76EB23C5629400A5F115 /* plane.gif in Resources */,
 				2D28B2CE23C39D0300112540 /* Plane.png in Resources */,
 				2D28B31C23C472D100112540 /* 1.png in Resources */,
+				2D8FDED523CDA14200313ACF /* image.jpg in Resources */,
 				2D28B35823C472D100112540 /* 60.png in Resources */,
 				2D28B32B23C472D100112540 /* 24.png in Resources */,
 				2D28B34823C472D100112540 /* 55.png in Resources */,
@@ -729,6 +744,7 @@
 				2D8FDEAE23C8C01B00313ACF /* CircleView.swift in Sources */,
 				2D8FDEC323CC68F200313ACF /* BezierView.swift in Sources */,
 				2D8FDEC523CCA89D00313ACF /* LineChartView.swift in Sources */,
+				2D8FDED723CDA19100313ACF /* ThirteenthPartOne.swift in Sources */,
 				2D8FDEBA23CB6A3200313ACF /* TenthPartOne.swift in Sources */,
 				2DFE76E423C4DAD900A5F115 /* ForthPartTwoViewController.swift in Sources */,
 				2D28B29123C2FF8300112540 /* AppDelegate.swift in Sources */,
